@@ -1,22 +1,7 @@
-body div:hover:nth-of-type(1) {
+body div:hover {
   border: 2px solid black;
 }
 
-body div:hover:nth-of-type(2) {
-  border: 2px solid black;
-}
-
-body div:hover:nth-of-type(3) {
-  border: 2px solid black;
-}
-
-body div:hover:nth-of-type(4) {
-  border: 2px solid black;
-}
-
-body div:hover:nth-of-type(5) {
-  border: 2px solid black;
-}
 
 body div:nth-of-type(1) {
   background-color: red;
@@ -36,4 +21,42 @@ body div:nth-of-type(4) {
 
 body div:nth-of-type(5) {
   background-color: seashell;
+}
+
+div:nth-of-type(1) > h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+div:nth-of-type(2) > h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+div:nth-of-type(3) > h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+div:nth-of-type(4) > h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+div:nth-of-type(5) > h3 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+div:nth-of-type(3) {
+  padding: 20px;
+}
+
+div:nth-of-type(odd) > h3 {
+  font-style: italic;
 }
