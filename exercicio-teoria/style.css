@@ -2,8 +2,9 @@ header h1 {
     text-align: center;
 }
 
-section ul li {
+ul {
     list-style: none;
+    text-align: center;
 }
 
 
@@ -19,6 +20,7 @@ section ul li {
         text-align: center;
         width: 200px;
         display: block;
+        margin: auto;
       }
 
       .second {
@@ -38,3 +40,7 @@ section ul li {
         width: 300px;
         display: inline-block;
       }
+
+   section ul li {
+    display: inline;
+   }
