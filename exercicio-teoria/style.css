@@ -7,7 +7,9 @@ section ul li {
 }
 
 
-
+.premiacao {
+    text-align: center;
+}
 
 
 .first {
@@ -16,6 +18,7 @@ section ul li {
         height: 50px;
         text-align: center;
         width: 200px;
+        display: block;
       }
 
       .second {
@@ -24,6 +27,7 @@ section ul li {
         height: 50px;
         text-align: center;
         width: 300px;
+        display: inline-block;
       }
 
       .third {
@@ -32,4 +36,5 @@ section ul li {
         height: 50px;
         text-align: center;
         width: 300px;
+        display: inline-block;
       }
