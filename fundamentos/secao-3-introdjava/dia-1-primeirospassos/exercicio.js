@@ -1,12 +1,13 @@
-let numberA = 21;
-let numberB = 21;
+let numberA = 87;
+let numberB = 8;
+let numberC = 9;
 
-if (numberA > numberB) {
-    console.log('A é maior que B');
+if (numberA > numberB && numberA > numberC) {
+    console.log('A é o maior');
 }
-else if (numberB > numberA) {
-    console.log('B é maior que A');
+else if (numberB > numberA && numberB > numberC) {
+    console.log('B é o maior');
 }
-else {
-    console.log('São iguais');
+else if (numberC > numberA && numberC > numberB) {
+    console.log('C é o maior');
 }
