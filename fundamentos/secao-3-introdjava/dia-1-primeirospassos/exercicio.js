@@ -66,7 +66,7 @@ switch (chessPiece.toLowerCase()) {
         console.log('peça inválida');
 } */
 
-let numbA = 12;
+/* let numbA = 12;
 let numbB = 4;
 let numbC = 3;
 
@@ -75,4 +75,15 @@ if (numbA % 2 === 0 || numbB % 2 === 0 || numbC % 2 === 0) {
 }
 else {
     console.log('false');
+} */
+
+
+let number1 = 12;
+let number2 = 0;
+let number3 = 0;
+let isEven = false;
+
+if (number1 % 2 > 0 || number2 % 2 > 0 || number3 % 2 > 0) {
+    isEven = true;
 }
+console.log(isEven);
