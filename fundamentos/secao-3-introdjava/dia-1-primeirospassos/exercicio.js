@@ -12,7 +12,7 @@ else if (numberC > numberA && numberC > numberB) {
     console.log('C é o maior');
 } */
 
-let numberTest = -3;
+/* let numberTest = -3;
 
 if (numberTest > 0) {
     console.log('positive');
@@ -22,4 +22,21 @@ else if (numberTest < 0) {
 }
 else {
     console.log('zero');
+} */
+
+let angle1 = 45;
+let angle2 = 45;
+let angle3 = 90;
+let sumOfAngles = angle1 + angle2 + angle3;
+
+if (sumOfAngles === 180) {
+    console.log('true');
+}
+else if (sumOfAngles !== 180) {
+    if (angle1 <= 0 || angle2 <= 0 || angle3 <= 0) {
+        console.log('ângulo inválido');
+    }
+    else {
+        console.log('false');
+    }
 }
