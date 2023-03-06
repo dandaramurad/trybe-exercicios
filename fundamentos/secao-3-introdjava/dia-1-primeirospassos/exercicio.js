@@ -78,7 +78,7 @@ else {
 } */
 
 
-let number1 = 12;
+/* let number1 = 12;
 let number2 = 0;
 let number3 = 0;
 let isEven = false;
@@ -86,4 +86,17 @@ let isEven = false;
 if (number1 % 2 > 0 || number2 % 2 > 0 || number3 % 2 > 0) {
     isEven = true;
 }
-console.log(isEven);
+console.log(isEven); */
+
+
+let priceValue =10;
+let saleValue =15;
+
+if (priceValue >= 0 && saleValue >= 0) {
+    let totalCost = priceValue * 1.2;
+    let totalProfit = (totalCost - saleValue) * 1000
+    console.log('O lucro da venda de 1000 unidades é ' + totalProfit);
+}
+else {
+    console.log('Os valores não podem ser negativos');
+}
