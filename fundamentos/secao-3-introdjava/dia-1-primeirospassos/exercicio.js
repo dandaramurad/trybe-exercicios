@@ -41,7 +41,7 @@ else if (sumOfAngles !== 180) {
     }
 } */
 
-let chessPiece = 'Rainha';
+/* let chessPiece = 'Rainha';
 
 switch (chessPiece.toLowerCase()) {
     case 'bispo':
@@ -64,4 +64,15 @@ switch (chessPiece.toLowerCase()) {
     break;
     default:
         console.log('peça inválida');
+} */
+
+let numbA = 12;
+let numbB = 4;
+let numbC = 3;
+
+if (numbA % 2 === 0 || numbB % 2 === 0 || numbC % 2 === 0) {
+    console.log('true');
+}
+else {
+    console.log('false');
 }
