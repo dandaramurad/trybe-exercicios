@@ -89,7 +89,7 @@ if (number1 % 2 > 0 || number2 % 2 > 0 || number3 % 2 > 0) {
 console.log(isEven); */
 
 
-let priceValue =10;
+/* let priceValue =10;
 let saleValue =15;
 
 if (priceValue >= 0 && saleValue >= 0) {
@@ -99,4 +99,6 @@ if (priceValue >= 0 && saleValue >= 0) {
 }
 else {
     console.log('Os valores não podem ser negativos');
-}
+} */
+
+
