@@ -5,3 +5,7 @@ document.body.appendChild(createH1);
 const createMain = document.createElement("main");
 createMain.className = "main-content";
 document.body.appendChild(createMain);
+
+const createTagSection = document.createElement("section");
+createTagSection.className = "center-content";
+createMain.appendChild(createTagSection);
