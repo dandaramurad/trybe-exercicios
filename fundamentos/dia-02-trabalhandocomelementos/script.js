@@ -51,3 +51,11 @@ for (index = 0; index < tagsH3.length; index += 1) {
 
 createMain.removeChild(createNewSection);
 
+createRightContent.style.marginRight = "auto";
+
+createTagSection.style.backgroundColor = "green";
+
+const nove = document.querySelectorAll("li")[8];
+const dez = document.querySelectorAll("li")[9];
+createList.removeChild(nove);
+createList.removeChild(dez);
