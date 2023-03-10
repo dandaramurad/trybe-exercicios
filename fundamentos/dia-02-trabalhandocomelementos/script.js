@@ -9,3 +9,7 @@ document.body.appendChild(createMain);
 const createTagSection = document.createElement("section");
 createTagSection.className = "center-content";
 createMain.appendChild(createTagSection);
+
+const createTagP = document.createElement("p");
+createTagP.innerText = "Venha viajar com a gente!";
+createTagSection.appendChild(createTagP);
