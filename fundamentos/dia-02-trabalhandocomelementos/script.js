@@ -21,3 +21,23 @@ createMain.appendChild(createNewSection);
 const createRightContent = document.createElement("section");
 createRightContent.className = "right-content";
 createMain.appendChild(createRightContent);
+
+const createImg = document.createElement("img");
+createImg.className = "small-image";
+createImg.src = "https://picsum.photos/200";
+createNewSection.appendChild(createImg);
+
+const createList = document.createElement("ul");
+const numbers = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+for (const num in numbers) {
+    const listItem = document.createElement("li");
+    listItem.innerHTML = numbers[num];
+    createList.appendChild(listItem);
+}
+createRightContent.appendChild(createList);
+
+for (index = 1; index <= 3; index += 1) {
+    const createNewH3 = document.createElement("h3");
+    createNewH3.innerHTML = index;
+    createMain.appendChild(createNewH3);
+}
