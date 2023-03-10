@@ -43,3 +43,11 @@ for (index = 1; index <= 3; index += 1) {
 }
 
 createH1.className = "title";
+
+const tagsH3 = document.querySelectorAll("h3")
+for (index = 0; index < tagsH3.length; index += 1) {
+    tagsH3[index].className = "description";
+}
+
+createMain.removeChild(createNewSection);
+
