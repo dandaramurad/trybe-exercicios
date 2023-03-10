@@ -41,3 +41,5 @@ for (index = 1; index <= 3; index += 1) {
     createNewH3.innerHTML = index;
     createMain.appendChild(createNewH3);
 }
+
+createH1.className = "title";
