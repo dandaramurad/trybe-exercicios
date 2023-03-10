@@ -13,3 +13,11 @@ createMain.appendChild(createTagSection);
 const createTagP = document.createElement("p");
 createTagP.innerText = "Venha viajar com a gente!";
 createTagSection.appendChild(createTagP);
+
+const createNewSection = document.createElement("section");
+createNewSection.className = "left-content";
+createMain.appendChild(createNewSection);
+
+const createRightContent = document.createElement("section");
+createRightContent.className = "right-content";
+createMain.appendChild(createRightContent);
