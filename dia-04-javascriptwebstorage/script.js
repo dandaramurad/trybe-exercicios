@@ -45,8 +45,62 @@ window.onload = () => {
         });
     }
 
+    let fontColorBtn = document.querySelectorAll("#font-color>button");
+    for (index = 0; index < fontColorBtn.length; index += 1) {
+        fontColorBtn[index].addEventListener("click", (event) => {
+            colorFont(event.target.innerHTML);
+        });
+    }
 
+    let fontSizeBtn = document.querySelectorAll("#font-size>button");
+    for (index = 0; index < fontSizeBtn.length; index += 1) {
+        fontSizeBtn[index].addEventListener("click", (event) => {
+            fontSize(event.target.innerHTML);
+        });
+    }
 
+    let lineHeightBtn = document.querySelectorAll("#line-height>button");
+    for (index = 0; index < lineHeightBtn.length; index += 1) {
+        lineHeightBtn[index].addEventListener("click", (event) => {
+            spacing(event.target.innerHTML);
+        });
+    }
+
+    let fontFamilyBtn = document.querySelectorAll("#font-family>button");
+    for (index = 0; index < fontFamilyBtn.length; index += 1) {
+        fontFamilyBtn[index].addEventListener("click", (event) => {
+            fontFamily(event.target.innerHTML);
+        });
+    }
+
+    const refresh = () => {
+        let background = localStorage.getItem("backgroundColor");
+        if (background) {
+            colorBackground(background);
+        }
+
+        let font = localStorage.getItem("fontColor");
+        if (font) {
+            colorFont(font);
+        }
+
+        let sizeFont = localStorage.getItem("fontSize");
+        if (sizeFont) {
+            fontSize(sizeFont);
+        }
+
+        let lineSpacing = localStorage.getItem("lineHeight");
+        if (lineSpacing) {
+            spacing(lineSpacing);
+        }
+
+        let familyFont = localStorage.getItem("fontFamily");
+        if (familyFont) {
+            fontFamily(familyFont);
+        }
+    }
+
+    refresh();
 
 
 }
