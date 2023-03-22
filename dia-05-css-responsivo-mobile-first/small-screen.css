@@ -16,8 +16,10 @@
   }
   h1 {
     font-size: 32px;
+    text-align: center;
   }
   h2 {
+    text-align: center;
   }
   img {
     max-width: 100%;
@@ -29,9 +31,11 @@
   }
   figure {
       margin: 0;
+      text-align: center;
   }
   figcaption {
-    font-size: .8em;
+    font-size: 20px;
+    text-align: center;
   }
 
   @media screen and (min-width: 768px) {
@@ -55,6 +59,28 @@
     section {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
-    
+    figcaption {
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+      background-color: lightseagreen;
+      margin: 100px;
+    }
+    h1 {
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    article {
+      font-size: 36px;
+    }
+    figcaption {
+      font-size: 32px;
+    }
   }
